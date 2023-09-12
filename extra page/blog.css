@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#articalc {
+    width: 1100px;
+    margin: 0 auto;
+}
+#blogp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.singleb div  {
+height: 400px;
+}
+.singleb div img {
+    height: 100%;
+    width: 100%;
+}
+

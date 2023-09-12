@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    form { 
+    width: 800px;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+form h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#ne-p input {
+display: block;
+margin:20px auto;
+width: 400px;
+height: 30px;
+border: none;
+padding: 5px 20px;
+font-size: 17px;
+border-radius: 30px;
+}
+form textarea {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+.subi {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, blue, blueviolet,aqua);
+    color: white;
+}
